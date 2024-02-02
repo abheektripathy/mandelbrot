@@ -1,0 +1,14 @@
+{
+  "name": "mandelbrot",
+  "module": "index.ts",
+  "bin": {
+    "mandelbrot": "./index.ts"
+ },
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
